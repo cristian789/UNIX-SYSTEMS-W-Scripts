@@ -1,0 +1,112 @@
+Script started on Fri Sep 29 23:29:04 2017
+]0;z1824863@hopper: ~/csci330/assign2z1824863@hopper:~/csci330/assign2$ readling   k -f file.       jello.txt
+/home/hopper/z1824863/csci330/assign2/jello.txt
+]0;z1824863@hopper: ~/csci330/assign2z1824863@hopper:~/csci330/assign2$ find ` ~-type f -name "jelo lo.txt"
+find: `~-type': No such file or directory
+find: `f': No such file or directory
+]0;z1824863@hopper: ~/csci330/assign2z1824863@hopper:~/csci330/assign2$ find ~-type f -name "jello.txt"[10Preadlink -f jello.txt
+/home/hopper/z1824863/csci330/assign2/jello.txt
+]0;z1824863@hopper: ~/csci330/assign2z1824863@hopper:~/csci330/assign2$ readlink -f jello.txtfind ~-type f -name "jello.txt" ~[1@ 
+/home/hopper/z1824863/csci330/assign2/jello.txt
+]0;z1824863@hopper: ~/csci330/assign2z1824863@hopper:~/csci330/assign2$ cd /home  /touring/t90jfl1
+bash: cd: /home/touring/t90jfl1: No such file or directory
+]0;z1824863@hopper: ~/csci330/assign2z1824863@hopper:~/csci330/assign2$ cd /home/touring/t90jfl1[1P
+]0;z1824863@hopper: /home/turing/t90jfl1z1824863@hopper:/home/turing/t90jfl1$ find ~ -type f -pern m r-- r-- r--
+find: invalid mode `r--'
+]0;z1824863@hopper: /home/turing/t90jfl1z1824863@hopper:/home/turing/t90jfl1$ find ~ -type f -perm r-- r-- r--           ugo=r   r--
+]0;z1824863@hopper: /home/turing/t90jfl1z1824863@hopper:/home/turing/t90jfl1$ find ~ -type f -perm ugo=r--  
+]0;z1824863@hopper: /home/turing/t90jfl1z1824863@hopper:/home/turing/t90jfl1$ find ~ -type f -perm ugo=r
+]0;z1824863@hopper: /home/turing/t90jfl1z1824863@hopper:/home/turing/t90jfl1$ find ~ -type f -perm ugo=r[1P[1P
+./f1.txt
+find: `./Mail': Permission denied
+find: `./javawork': Permission denied
+find: `./.ssh': Permission denied
+find: `./dir1': Permission denied
+find: `./cplus': Permission denied
+find: `./.emacs.d': Permission denied
+find: `./javawork2': Permission denied
+find: `./330/dir2': Permission denied
+find: `./330/dir3': Permission denied
+find: `./330/dir1': Permission denied
+find: `./oldworkdir': Permission denied
+]0;z1824863@hopper: /home/turing/t90jfl1z1824863@hopper:/home/turing/t90jfl1$ find -type f -perm ugo=r                   -size +80k
+./datafiles/file1.txt
+find: `./Mail': Permission denied
+find: `./javawork': Permission denied
+find: `./.ssh': Permission denied
+find: `./dir1': Permission denied
+find: `./cplus': Permission denied
+find: `./.emacs.d': Permission denied
+find: `./javawork2': Permission denied
+./myerror.txt
+find: `./330/dir2': Permission denied
+find: `./330/dir3': Permission denied
+find: `./330/dir1': Permission denied
+find: `./oldworkdir': Permission denied
+]0;z1824863@hopper: /home/turing/t90jfl1z1824863@hopper:/home/turing/t90jfl1$ find -size +80ktype f -perm ugo=r[1P[1Pg=r rwx
+find: `./Mail': Permission denied
+find: `./javawork': Permission denied
+find: `./.ssh': Permission denied
+find: `./dir1': Permission denied
+find: `./cplus': Permission denied
+find: `./.emacs.d': Permission denied
+find: `./javawork2': Permission denied
+find: `./330/dir2': Permission denied
+find: `./330/dir3': Permission denied
+find: `./330/dir1': Permission denied
+find: `./oldworkdir': Permission denied
+]0;z1824863@hopper: /home/turing/t90jfl1z1824863@hopper:/home/turing/t90jfl1$ find -type f -perm g=rwx                  empy ty
+./datafiles/j*.txt
+./datafiles/errorlog.txt
+./f1.txt
+find: `./Mail': Permission denied
+find: `./Mail': Permission denied
+find: `./javawork': Permission denied
+find: `./javawork': Permission denied
+./dir3
+find: `./.ssh': Permission denied
+find: `./.ssh': Permission denied
+find: `./dir1': Permission denied
+find: `./dir1': Permission denied
+./dir999
+./dir100/javawork.txt
+./dir77
+find: `./cplus': Permission denied
+find: `./cplus': Permission denied
+./file1.txt
+./scripts/err.txt
+./scripts/dir2
+./scripts/scripts2/t2.txt
+./scripts/scripts2/t.txt
+./scripts/p.txt
+./scripts/dir1/dir15
+./scripts/file.txt
+./scripts/f2.txt
+./dir55
+find: `./.emacs.d': Permission denied
+find: `./.emacs.d': Permission denied
+./test.txt
+./z7.txt
+find: `./javawork2': Permission denied
+find: `./javawork2': Permission denied
+./dir99/t1.txt
+find: `./330/dir2': Permission denied
+find: `./330/dir2': Permission denied
+./330/t1.txt
+find: `./330/dir3': Permission denied
+find: `./330/dir3': Permission denied
+find: `./330/dir1': Permission denied
+find: `./330/dir1': Permission denied
+./330/dir99/t1.txt
+./330/dir4
+find: `./oldworkdir': Permission denied
+find: `./oldworkdir': Permission denied
+./testdir/t2.txt
+./testdir/t1.txt
+./testdir/t4.txt
+./testdir/t3.txt
+./j5.txt
+]0;z1824863@hopper: /home/turing/t90jfl1z1824863@hopper:/home/turing/t90jfl1$ exit
+exit
+
+Script done on Fri Sep 29 23:46:40 2017

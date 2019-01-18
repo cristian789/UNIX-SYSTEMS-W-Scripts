@@ -1,0 +1,25 @@
+Script started on Fri Oct  6 15:19:41 2017
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ ls hiiii 2>eer  rr1.txt
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ rm    cd hetttt     eyyyy 2>err1 2.txt
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ rm filenotthere 2>err3.txt
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ find filemissing 2 1. >input.txt 2>err3 4.txt
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ ls fiiii     boyyyyyyy 2>err5.txt
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ cat err1.txt err2.txt err3.txt err4.txt [K]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ cat err1.txt err2.txt err3.txt err4.txt err5.txt 1>log.txt
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ [Kcat log.txt
+ls: cannot access hiiii: No such file or directory
+bash: cd: heyyyy: No such file or directory
+rm: cannot remove 'filenotthere': No such file or directory
+find: `filemissing': No such file or directory
+ls: cannot access boyyyyyyy: No such file or directory
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ who   I i   1 \ |  |sort    rt|head -2
+z1763095 pts/3        Oct  6 14:42 (10.167.48.140)
+z1781052 pts/1        Oct  6 11:58 (10.157.49.49)
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ who|sort|head -2       taile  -2
+z1821996 pts/6        Oct  6 15:08 (c-73-8-185-58.hsd1.il.comcast.net)
+z1824863 pts/7        Oct  6 15:12 (76.16.50.79)
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ who|sort    wc
+      5      30     293
+]0;z1824863@hopper: ~/csci330/assign2.3z1824863@hopper:~/csci330/assign2.3$ exit
+exit
+
+Script done on Fri Oct  6 15:41:23 2017

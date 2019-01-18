@@ -1,0 +1,32 @@
+Script started on Fri Oct  6 15:01:52 2017
+]0;z1824863@hopper: ~/csci330/assign2cz1824863@hopper:~/csci330/assign2c$ head -5 status.txt
+4	.
+Filesystem                        1K-blocks     Used Available Use% Mounted on
+/dev/md1                           47897352  5395468  40045724  12% /
+udev                                  10240        0     10240   0% /dev
+tmpfs                              13216268  1312716  11903552  10% /run
+]0;z1824863@hopper: ~/csci330/assign2cz1824863@hopper:~/csci330/assign2c$ tail -20 status.txt
+unix  2      [ ]         DGRAM                    12911    
+unix  3      [ ]         STREAM     CONNECTED     348413524 
+unix  3      [ ]         STREAM     CONNECTED     348410295 /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     297198412 
+unix  2      [ ]         DGRAM                    348377897 
+unix  2      [ ]         DGRAM                    16201    
+unix  3      [ ]         STREAM     CONNECTED     348388345 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     348407934 
+unix  3      [ ]         STREAM     CONNECTED     348407996 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     348407915 /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     348407995 /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    337118749 
+unix  2      [ ]         STREAM     CONNECTED     21585    
+unix  3      [ ]         STREAM     CONNECTED     348413481 
+unix  3      [ ]         STREAM     CONNECTED     348396534 
+.
+..
+badstatus.txt
+status.txt
+typescript
+]0;z1824863@hopper: ~/csci330/assign2cz1824863@hopper:~/csci330/assign2c$ [K]0;z1824863@hopper: ~/csci330/assign2cz1824863@hopper:~/csci330/assign2c$ ec  xit   exit
+exit
+
+Script done on Fri Oct  6 15:06:02 2017
